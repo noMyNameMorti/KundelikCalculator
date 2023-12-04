@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <title>СОр + СОр</title>
+   <link rel="stylesheet" href="css/index_css.css">
+</head>
+<body>
+   <script src="js/main.js"></script>
+   <form method="post" onsubmit="return mainfunc4(this)">
+    
+      <div>Введите балл за СОр за 1 четверть: </div>
+      <label for="sor_1">СОР №1 : </label>
+      <input type="number" name="sor_1" min="0">
+      <span> из </span>
+      <input type="number" name="max_sor_1" min="0"><br><br>
+      <label for="sor_2">СОР №2 : </label>
+      <input type="number" name="sor_2" min="0">
+      <span> из </span>
+      <input type="number" name="max_sor_2" min="0" ><br><br>
+      
+            <!-- СОР за 2 ч -->
+      <div>Введите балл за СОр за 2 четверть: </div>
+      <label for="sor_1_2">СОР №1 : </label>
+      <input type="number" name="sor_1_2" min="0">
+      <span> из </span>
+      <input type="number" name="max_sor_1_2" min="0"><br><br>
+      <label for="sor_2_2">СОР №2 : </label>
+      <input type="number" name="sor_2_2" min="0">
+      <span> из </span>
+      <input type="number" name="max_sor_2_2" min="0" ><br><br>
+
+
+      <!--       ФО    -->
+      <div>Формативные Оценки:</div>
+      <label for="fo_col">Общее количество ФО за полугодие:</label>
+      <input type="number" min="0" max="20" name="fo_col" id="fo_col"><br><br>
+      
+      
+      <label for="fo">Общая Сумма ФО за полугодие: </label>
+      <input type="number" min="0" max="200" name="fo"><br><br>
+      <p>*Посчитайте сумму своих оценок и запишите. Например: 38 это сумма ФО 10 + 10 + 9 + 9. Сумма не должна быть больше 100.</p>
+      <input class="btn" type="reset"><input type="submit" class="btn"><br><br>
+      <div id="itog">
+         <span class="grade"> Ваша оценка:  </span><br>
+         <span id="grade_1"> </span><br>
+         <span class="grade"> Ваш процент:  </span><br>
+         <span id="grade_2"> </span>
+      </div>
+      <div id="grade_itog">5</div>
+   </form>
+</body>
+</html>
