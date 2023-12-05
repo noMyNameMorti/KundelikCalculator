@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Geologica:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Geologica:wght@700;900&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;0,900;1,600&display=swap');
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #d4d4d4;
+   font-weight: 500;
+   color: #1c1c1c;
+   font-family: 'Montserrat', sans-serif;
+
+
+}
+div{
+   text-align: center;
+   padding: 5px;
+}
+input{
+   height: 20px;
+   width: 50px;  
+   border: 0px;
+   border-bottom: 2.5px solid #4287f5;
+   border-radius: 2px;
+   background-color: #fff;
+}
+.btn{
+   background-color: #4287f5;
+   width: 100px;
+   height: 35px;
+   padding: 5px;
+   margin: 5px;
+   color: #fff;
+   border-radius: 10px;
+   font-weight: bold;
+   position: relative;
+   border-bottom: 2.5px solid #5b85c7;
+}
+.btn:active{
+   background-color: #1c1c1c;
+   top: 2px;
+   border-bottom: 2.5px solid #1c1c1c;
+
+}
+.btn:hover{
+   background-color: #1c1c1c;
+   border-bottom: 2.5px solid #1c1c1c;
+
+}
+
+form{
+   height: 750px;
+   width: 500px;
+   background-color: #fff;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-radius: 30px 0px 30px 0px;
+   box-shadow: 8px 10px 5px 2px rgba(74, 74, 74, 0.20);
+   
+}
+#itog{
+   width: 200px;
+   height: 170px;
+   text-align: left;
+   margin-right: auto;
+   border-radius: 30px;
+   padding-left: 25px;
+   padding-top: 15px;
+   float: left;
+   
+}
+#grade_itog{
+   width: 150px;
+   height: 120px;
+   margin-left: 40px;
+   padding:20px 0px 0px 0px;
+   font-size: 100px;
+   border-radius: 50%;
+   float: left;
+   text-align: center;
+   font-family: 'Archivo', sans-serif;
+   color: #2aad32;
+   border: 15px solid #2aad32;
+   position: relative;
+   display: none;
+}
+
+
+
+@media (orientation: portrait){
+   span{
+      font-size: 35px;
+   }
+   form{
+      height: 1650px;
+      width: 90%;
+      background-color: #fff;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border-radius: 30px 0px 30px 0px;
+      box-shadow: 8px 10px 5px 2px rgba(74, 74, 74, 0.20);
+   }
+   div{
+      text-align: center;
+      padding: 10px;
+      font-size: 40px;
+   }
+   label{
+      font-size: 35px;
+      padding-left: 15px;
+   }
+   input{
+      height: 40px;
+      width: 100px;
+      border-bottom: 5px solid #4287f5;
+      border-radius: 3px;
+   }
+   .btn{
+      background-color: #4287f5;
+      width: 200px;
+      height: 70px;
+      font-size: 35px;
+      padding: 5px;
+      margin: 5px;
+      color: #fff;
+      border-radius: 10px;
+   }
+   #grade_itog{
+      width: 300px;
+      height: 240px;
+      margin-left: 200px;
+      margin-bottom: 50px;
+      padding:20px 0px 0px 0px;
+      font-size: 200px;
+      border-radius: 50%;
+      float: left;
+      text-align: center;
+      font-family: 'Archivo', sans-serif;
+      color: #2aad32;
+      border: 15px solid #2aad32;
+      position: relative;
+      display: none;
+   }
+
+   }
+}
+
+
+
+
+
+
+
+
+
