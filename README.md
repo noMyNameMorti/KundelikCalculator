@@ -18,5 +18,5 @@
 
 ## Установка и использование
 
-1. Сайт загружен и работает по технологии GitHub Page, поэтому вы просто можете открыть **[этот сайт!]**(https://nomynamemorti.github.io/KundelikCalculator/)
+1. Сайт загружен и работает по технологии GitHub Page, поэтому вы просто можете открыть [этот сайт!](https://nomynamemorti.github.io/KundelikCalculator/)
 
